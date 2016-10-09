@@ -304,7 +304,7 @@ color:#000;
     
 }
 /*mod_play_bar*/
-.mod_play_bar{width:100%;position:absolute;left:0;bottom:20%;
+.mod_play_bar{width:100%;position: fixed;left:0;bottom:80px;
 z-index:300}
 .mod_play_bar .cur_time,
 .mod_play_bar .tot_time{position:absolute; top:0;height: 1em;line-height:1em;color:#F00;font-size:0.6em;}
