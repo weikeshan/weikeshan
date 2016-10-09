@@ -220,7 +220,7 @@ function ADDLRC(text){
         fragment.appendChild(line);
 	}
 	lrc.appendChild(fragment);
-	$('#lrc').css( 'height', window.innerHeight+120);
+	$('#lrc').css( 'height', window.innerHeight/2+50);
 	zxx=document.getElementById("lrcc").offsetTop;
 	lines=text.length;//63
 	lineH=document.getElementById("lrcc").offsetHeight/lines;//40
