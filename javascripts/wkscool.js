@@ -88,6 +88,10 @@ $(function(){
 		}
 		
 	});
+	$("#zfy").click(function(e){
+		alert("聆听最新的歌曲，请关注子非鱼QQ：398043454")
+		
+	});
 	
 	
 });
